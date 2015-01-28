@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ACCEPT" xml:space="preserve">
+    <value>ACCEPT</value>
+  </data>
+  <data name="ALBUM" xml:space="preserve">
+    <value>Album</value>
+  </data>
+  <data name="AUTHENTICATE" xml:space="preserve">
+    <value>1. Authorization on Flickr's web.</value>
+  </data>
+  <data name="AUTHENTICATE_ERROR" xml:space="preserve">
+    <value>Authenticate was NOT completed. Please check that you have already authorized Hormigas on Flickr's web with your account and try again.</value>
+  </data>
+  <data name="AUTHENTICATE_INFO" xml:space="preserve">
+    <value>A browser will open and you'll need to authorize Hormigas in your Flickr account. 
+Once you authorize, copy the verification code provided by Flickr, it will be necessary for step 2.</value>
+  </data>
+  <data name="AUTHENTICATE_OK" xml:space="preserve">
+    <value>Athentication completed. Now you can proceed to upload selected files to your Flickr account.</value>
+  </data>
+  <data name="CANCEL" xml:space="preserve">
+    <value>CANCEL</value>
+  </data>
+  <data name="CHECK_DUPLICATES" xml:space="preserve">
+    <value>Check duplicates</value>
+  </data>
+  <data name="CHOOSE_COLUMNS" xml:space="preserve">
+    <value>Choose columns...</value>
+  </data>
+  <data name="CLEAR_TARGET" xml:space="preserve">
+    <value>Clear target</value>
+  </data>
+  <data name="CLEAR_THUMBNAIL_CACHE" xml:space="preserve">
+    <value>Clear Thumbnail Cache</value>
+  </data>
+  <data name="COMPARE_CRC" xml:space="preserve">
+    <value>Compare CRC</value>
+  </data>
+  <data name="COMPARE_SIZE" xml:space="preserve">
+    <value>Compare size</value>
+  </data>
+  <data name="COMPLETE_AUTHENTICATION" xml:space="preserve">
+    <value>2. Enter Flickr's verification code</value>
+  </data>
+  <data name="COPIED_FILES" xml:space="preserve">
+    <value>Copied {0} files.</value>
+  </data>
+  <data name="COPYING_FILES" xml:space="preserve">
+    <value>Copying Files</value>
+  </data>
+  <data name="COPY_ERROR" xml:space="preserve">
+    <value>There was some error copying: {0}.</value>
+  </data>
+  <data name="COPY_QUESTION" xml:space="preserve">
+    <value>Do you want to copy {0} files to the selected target/s?</value>
+  </data>
+  <data name="COPY_TO_TARGET" xml:space="preserve">
+    <value>Copy to target</value>
+  </data>
+  <data name="DAY" xml:space="preserve">
+    <value>Day (%D,%d):</value>
+  </data>
+  <data name="DETAILS" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="DUPLICATES" xml:space="preserve">
+    <value>Duplicates</value>
+  </data>
+  <data name="ERROR" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="EXAMPLE_DAY" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="EXAMPLE_FILENAME" xml:space="preserve">
+    <value>FileName.jpg</value>
+  </data>
+  <data name="EXAMPLE_MONTH" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="EXAMPLE_TAG" xml:space="preserve">
+    <value>Tag1, Tag2</value>
+  </data>
+  <data name="EXAMPLE_TIME" xml:space="preserve">
+    <value>192355123</value>
+  </data>
+  <data name="EXAMPLE_YEAR" xml:space="preserve">
+    <value>2000</value>
+  </data>
+  <data name="EXCLUDE_CHECKED_FILES" xml:space="preserve">
+    <value>Exclude checked files</value>
+  </data>
+  <data name="FILE_LOAD" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="FILE_MENU" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="FILE_NAME" xml:space="preserve">
+    <value>Name (%N,%n):</value>
+  </data>
+  <data name="FILE_PATH" xml:space="preserve">
+    <value>Path</value>
+  </data>
+  <data name="FILE_SAVE" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="FILE_SIZE" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="FILE_TYPE" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="FLICKR_ALBUM" xml:space="preserve">
+    <value>Album on Flickr</value>
+  </data>
+  <data name="FLICKR_VERIFIER" xml:space="preserve">
+    <value>Flickr's verification code</value>
+  </data>
+  <data name="FLICKR_VERIFIER_TYPE" xml:space="preserve">
+    <value>Type Flickr's verifier that was provided in step 1:</value>
+  </data>
+  <data name="FORMAT_TAG" xml:space="preserve">
+    <value>Tag (%E,%e):</value>
+  </data>
+  <data name="GALLERY" xml:space="preserve">
+    <value>Gallery</value>
+  </data>
+  <data name="HORMIGAS_APP_NAME" xml:space="preserve">
+    <value>Hormigas (beta)</value>
+  </data>
+  <data name="INFORMATION" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="LANGUAGES" xml:space="preserve">
+    <value>Languages</value>
+  </data>
+  <data name="LANG_EN" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="LANG_ES" xml:space="preserve">
+    <value>Spanish</value>
+  </data>
+  <data name="MAKE_DEFAULT" xml:space="preserve">
+    <value>Make Default</value>
+  </data>
+  <data name="MONTH" xml:space="preserve">
+    <value>Month (%M,%m):</value>
+  </data>
+  <data name="NAME" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="NEW_ALBUM_NAME" xml:space="preserve">
+    <value>New Album name (no invalid characters):</value>
+  </data>
+  <data name="NEW_FORMAT" xml:space="preserve">
+    <value>New Format</value>
+  </data>
+  <data name="NEW_PATH" xml:space="preserve">
+    <value>New Path</value>
+  </data>
+  <data name="NEW_TAG_NAME" xml:space="preserve">
+    <value>New Tag (no invalid characters):</value>
+  </data>
+  <data name="NO_INTERNET" xml:space="preserve">
+    <value>Ooops! It seems you don't have internet connection.</value>
+  </data>
+  <data name="PANE" xml:space="preserve">
+    <value>Pane</value>
+  </data>
+  <data name="PREPEND_FOLDERS_BY_DATE" xml:space="preserve">
+    <value>Prepend folders by date</value>
+  </data>
+  <data name="REMOVE_CHECKED_FILES" xml:space="preserve">
+    <value>Remove checked files</value>
+  </data>
+  <data name="REMOVE_FILES_QUESTION" xml:space="preserve">
+    <value>This will remove all checked files in selection. Are you sure?</value>
+  </data>
+  <data name="SEL_ITEMS" xml:space="preserve">
+    <value>Selected items...</value>
+  </data>
+  <data name="SET_FLICKR_ALBUM" xml:space="preserve">
+    <value>Set Flickr Album...</value>
+  </data>
+  <data name="SET_FORMAT" xml:space="preserve">
+    <value>Set Format...</value>
+  </data>
+  <data name="SET_TAG" xml:space="preserve">
+    <value>Set tag...</value>
+  </data>
+  <data name="SET_TARGET" xml:space="preserve">
+    <value>Set target...</value>
+  </data>
+  <data name="START" xml:space="preserve">
+    <value>START</value>
+  </data>
+  <data name="SUBFOLDERS" xml:space="preserve">
+    <value>Include subfolders</value>
+  </data>
+  <data name="TAG" xml:space="preserve">
+    <value>Tag</value>
+  </data>
+  <data name="TAKEN_MODIFIED" xml:space="preserve">
+    <value>Taken/Modified</value>
+  </data>
+  <data name="TARGET" xml:space="preserve">
+    <value>Target</value>
+  </data>
+  <data name="THUMBNAILS" xml:space="preserve">
+    <value>Thumbnails</value>
+  </data>
+  <data name="THUMBNAIL_SIZE" xml:space="preserve">
+    <value>Thumbnail size</value>
+  </data>
+  <data name="TIME" xml:space="preserve">
+    <value>Time (%H,%h):</value>
+  </data>
+  <data name="UPLOADED_FILES" xml:space="preserve">
+    <value>Uploaded {0} files.</value>
+  </data>
+  <data name="UPLOADING_FILES" xml:space="preserve">
+    <value>Uploading Files</value>
+  </data>
+  <data name="UPLOAD_ERROR" xml:space="preserve">
+    <value>There was some error uploading: {0}.</value>
+  </data>
+  <data name="UPLOAD_OK" xml:space="preserve">
+    <value>Upload of {0} file/s to {1} album/s completed.</value>
+  </data>
+  <data name="UPLOAD_QUESTION" xml:space="preserve">
+    <value>Do you want to upload {0} files to the selected album/s?</value>
+  </data>
+  <data name="UPLOAD_SELECTED_FILES" xml:space="preserve">
+    <value>Upload Folder</value>
+  </data>
+  <data name="YEAR" xml:space="preserve">
+    <value>Year:</value>
+  </data>
+</root>
