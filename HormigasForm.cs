@@ -570,7 +570,7 @@ namespace Manina.Windows.Forms
         void imageListView1_DoubleClick(object sender, System.EventArgs e)
         {
             //throw new System.NotImplementedException();
-            ImageListViewItem item = ((ImageListView)sender).SelectedItems[0];
+            ImageListViewItem item = ((ImageListView)sender).SelectedItems.Count > 0 ? ((ImageListView)sender).SelectedItems[0]: null;
             if (item != null)
             {
                 System.Diagnostics.Process.Start(item.FileName);
@@ -987,8 +987,8 @@ namespace Manina.Windows.Forms
             label.Text = promptText;
             textBox.Text = value;
 
-            buttonOk.Text = "OK";
-            buttonCancel.Text = "Cancel";
+            buttonOk.Text = HormigasForm.RM.GetString("OK");
+            buttonCancel.Text = HormigasForm.RM.GetString("CANCEL");
             buttonOk.DialogResult = DialogResult.OK;
             buttonCancel.DialogResult = DialogResult.Cancel;
 

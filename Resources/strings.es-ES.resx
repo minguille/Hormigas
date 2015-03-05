@@ -287,6 +287,9 @@ Si has marcado algunos para no copiar, esos no se copiarán.</value>
   <data name="NO_INTERNET" xml:space="preserve">
     <value>¡Uy! Parece que no tienes conexión a internet.</value>
   </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
   <data name="PANE" xml:space="preserve">
     <value>Panel</value>
   </data>

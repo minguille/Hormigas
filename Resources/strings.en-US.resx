@@ -283,6 +283,9 @@ Once you authorize, copy the verification code provided by Flickr, it will be ne
   <data name="NO_INTERNET" xml:space="preserve">
     <value>Ooops! It seems you don't have internet connection.</value>
   </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
   <data name="PANE" xml:space="preserve">
     <value>Pane</value>
   </data>
